@@ -55,7 +55,7 @@ public class Projeto3 {
                                 String iopc2;
                                 System.out.println("\n\n\n\n-A curiosidade matou o gato, mas você não é um!");
                                 System.out.println(
-                                                "-Você descobre que dentro do baú duas armas estão guardadas! Uma espada e um axe.");
+                                                "-Você descobre que dentro do baú duas armas estão guardadas! Uma espada e um lança.");
                                 System.out.println(
                                                 "-Escolha uma das armas para seguir na sua jornada! \n*OPÇÕes: \n|| A: ESPADA || ou B: Lança");
                                 iopc2 = iop2.nextLine();
