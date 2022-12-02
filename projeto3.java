@@ -17,46 +17,46 @@ public class Projeto3 {
                                                 + "Você avista a besta dormindo encima de uma pilha de corpos e algo te chama atenção");
                 System.out.println(
                                 "-Você percebe algo estranho perto do dragão! Pretende se aproximar e procurar por algo?\n *OPÇÕES: "
-                                                + "A:Que a aventura começe! ||\n||  B:Componeses não lutam contras dragões! ");
+                                                + "\n|| A:Que a aventura começe! ||\n|| B:Componeses não lutam contras dragões! ||\nResposta: ");
                 opc = op.nextLine();
 
                 if (opc.equals("A")) {
                         Scanner iop = new Scanner(System.in);
                         String iopc;
-                        System.out.println("Você optou pela aventura! 'audaces fortuna juvat'...");
+                        System.out.println("\n\n\nVocê optou pela aventura! 'audaces fortuna juvat'...");
                         System.out.println(
-                                        "O pobre campones se aproxima do dragao e percebe que oque te chamava atencao era na verdadae um bau! ");
+                                        "-O pobre camponês se aproxima do dragão e percebe que oque te chamava atenção era na verdadae um bau! ");
                         System.out.println(
-                                        "Voce precisa fazer alguma coisa! Mas oque fazer?\n OPCOES: A:O dragao dever morrer!(lutar contra o dragao). ||\n|| "
+                                        "-Voce precisa fazer alguma coisa! Mas oque fazer?\n *OPÇÕES: \n|| A: O dragao dever morrer!(lutar contra o dragao). ||\n|| "
                                                         +
                                                         "B: Linguas draconicas sao minha especialidades!(tentar conversar com o dragao). ||\n|| "
-                                                        + "C:Vasculhar o bau e achar algo para lutar.");
+                                                        + "C: Vasculhar o bau e achar algo para lutar. ||");
                         iopc = iop.nextLine();
 
                         if (iopc.equals("A")) {
                                 System.out.println(
-                                                "Matar pequenos repteis para se alimentar nao e o mesmo que matar um dragao!\n Sua luta foi curta e breve!"
-                                                                + "Sem gloria para aqueles que morrem como voce...");
-                                System.out.println("Você " + nome +
-                                                " tentou cegar o dragao, mas nao contou com o fato de que o dragao ja sabia da sua presenca."
-                                                + "A besta com um bafo quente transformou-lhe em po em aguns poucos segundos!");
+                                                "\n\n\nMatar pequenos repteis para se alimentar nao e o mesmo que matar um dragao!\n Sua luta foi curta e breve!"
+                                                                + "-Sem gloria para aqueles que morrem como voce...");
+                                System.out.println("\n-Você " + nome +
+                                                " tentou cegar o dragao, mas não contou com o fato de que o dragão já sabia da sua presença."
+                                                + "A besta com um bafo quente transformou-lhe em póG em alguns poucos segundos!");
                         }
                         if (iopc.equals("B")) {
                                 System.out.println(
-                                                "Que tolinho... Mero campones falar de maneira 'esquesita' nao permite que voce fale com animais ou criaturas e muito menos anjos...");
+                                                "\n\n\n\n\n-Que tolinho... Mero campones falar de maneira 'esquesita' nao permite que voce fale com animais ou criaturas e muito menos anjos...");
                                 System.out.println(
-                                                "Parece que a 'lingua' que sua irma mais velha ensinou dizendo ser draconica nao funcionou muito bem... Por isso"
+                                                "-Parece que a 'lingua' que sua irma mais velha ensinou, dizendo ser draconica nao funcionou muito bem... Por isso "
                                                                 + nome
-                                                                + " voce esta morto! Ps: Dragoes sao surdos e essa tal 'lingua draconica' nunca existiu! ");
+                                                                + " você está morto!\nOlhe pelo lado bom, pelo menos o dragão gostou do sabor da sua carne! \nPs: Dragoes são surdos e essa tal 'língua dracônica' nunca existiu! ");
                         }
                         if (iopc.equals("C")) {
                                 Scanner iop2 = new Scanner(System.in);
                                 String iopc2;
-                                System.out.println("A curiosidade matou o gato, mas você não é um!");
+                                System.out.println("\n\n\n\n-A curiosidade matou o gato, mas você não é um!");
                                 System.out.println(
-                                                "Você descobre que dentro do baú duas armas estão guardadas! Uma espada e um axe.");
+                                                "-Você descobre que dentro do baú duas armas estão guardadas! Uma espada e um axe.");
                                 System.out.println(
-                                                "Escolha uma das armas para seguir na sua jornada! OPCOES: A: ESPADA ou B: AXE");
+                                                "-Escolha uma das armas para seguir na sua jornada! \n*OPÇÕes: \n|| A: ESPADA || ou B: AXE");
                                 iopc2 = iop2.nextLine();
                                 if (iopc2.equals("A")) {
                                         System.out.println("“Houve a batalha final, e você" + nome
